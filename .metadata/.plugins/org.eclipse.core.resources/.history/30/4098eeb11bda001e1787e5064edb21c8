@@ -1,0 +1,9 @@
+package swagat;
+
+public class Card extends Thread {
+	@Override
+	public void run() {
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package swagat;
+
+public class HDFC {
+	double balance;
+	
+	public HDFC(double balance) {
+		this.balance=balance;
+	}
+	
+	public void Withdraw(double withdrawAmount) {
+		this.balance-=withdrawAmount;
+	}
+	public void Deposit(double depositAmount) {
+		this.balance+=depositAmount;
+	}
+}

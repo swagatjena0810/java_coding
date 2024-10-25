@@ -1,0 +1,15 @@
+package builderpattern;
+
+public class EmployeeMain {
+	public static void main(String[] args) {
+		Employee e=new Builder()
+					.employeeId(1)
+					.employeeName("swagat")
+					.employeeSalary(27880.0)
+					.build();
+		
+		 System.out.println("Employee ID: " + e.getEmployeeId());
+	        System.out.println("Employee Name: " + e.getEmployeeName());
+	        System.out.println("Employee Salary: " + e.getEmployeeSalary());
+	}
+}
